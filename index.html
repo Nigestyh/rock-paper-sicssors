@@ -5,29 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock,Paper, Scissors</title>
+    <link rel="stylesheet" href="styles.css" />
+
 </head>
 
 <body>
-    <header>
-        <h2>Let's Play!</h2>
-    </header>
-    <section>
-        <h4>Player score:<span>0</span></h4>
-        <h4>Computer score:<span>0</span></h4>
-    </section>
-    <section>
-        <h1>✊🏼</h1>
-        <h1>VS</h1>
-        <h1>✊🏼</h1>
-    </section>
-    <section>
-        <button>✊🏼</button>
-        <h3>Rock</h3>
-        <button>✋🏼</button>
-        <h3>Paper</h3>
-        <button>✌🏼</button>
-        <h3>Scissors</h3>
-    </section>
+    <main>
+        <header class="main-header">
+            <h2 class="game-title">Let's Play!</h2>
+        </header>
+        <section class="score-board">
+            <h4>Player score: <span>0</span></h4>
+            <h4>Computer score: <span>0</span></h4>
+        </section>
+        <section class="result-display">
+            <h1 class="player-result">✊🏼</h1>
+            <h1 class="versus-text">VS</h1>
+            <h1 class="cpu-result">✊🏼</h1>
+        </section>
+        <section>
+            <div class="options-choice">
+                <div class="option-wrapper">
+                    <button class="choice-btn">✊🏼</button>
+                    <h3 class="choice-label">Rock</h3>
+                </div>
+                <div class="option-wrapper">
+                    <button class="choice-btn">✋🏼</button>
+                    <h3 class="choice-label">Paper</h3>
+                </div>
+                <div class="option-wrapper">
+                    <button class="choice-btn">✌🏼</button>
+                    <h3 class="choice-label">Scissors</h3>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
