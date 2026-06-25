@@ -70,6 +70,6 @@ function checkWinner() {
       playerResult.textContent = "✊🏼";
       computerResult.textContent = "✊🏼";
       gameTitle.textContent = "Let's Play!";
-    });
+    }, 3000);
   }
 }
