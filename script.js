@@ -49,4 +49,27 @@ function showGameResult() {
     gameTitle.textContent = "You Lost!";
     computerScore.textContent++;
   }
+  checkWinner();
+}
+
+function checkWinner() {
+  if (Number(playerScore.textContent) === 3) {
+    gameTitle.textContent = " 🎉 You won the match!";
+    setTimeout(() => {
+      playerScore.textContent = 0;
+      computerScore.textContent = 0;
+      playerResult.textContent = "✊🏼";
+      computerResult.textContent = "✊🏼";
+      gameTitle.textContent = "Let's Play!";
+    }, 3000);
+  } else if (Number(computerScore.textContent) === 3) {
+    gameTitle.textContent = "Computer won the match!";
+    setTimeout(() => {
+      playerScore.textContent = 0;
+      computerScore.textContent = 0;
+      playerResult.textContent = "✊🏼";
+      computerResult.textContent = "✊🏼";
+      gameTitle.textContent = "Let's Play!";
+    });
+  }
 }
