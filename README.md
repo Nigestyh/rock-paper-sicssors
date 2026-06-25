@@ -28,7 +28,7 @@ Play against the computer, and be the first player to reach 3 points to win the 
 
 ## 🚀 Live Demo
 
-View Live Demo
+[View Live Demo](https://nigestyh.github.io/rock-paper-sicssors/)
 
 ## 💡Future Improvements
 
